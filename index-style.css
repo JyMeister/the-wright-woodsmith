@@ -1,0 +1,49 @@
+:root {
+    background-image: url('images/ww-background-img.png');
+}
+
+html {
+    background-image: url('images/ww-background-img.png');
+    background-color: #000;
+}
+
+body {
+    color: #fff;
+}
+
+heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9d5600;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
