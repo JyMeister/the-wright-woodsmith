@@ -34,7 +34,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #120c0ad8;
 }
 
 .social-icons {
