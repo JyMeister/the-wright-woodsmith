@@ -1,9 +1,10 @@
 :root {
-    background-image: url('images/ww-background-img.png');
+    --background-image: url('images/ww-background-img.png');
+    --transparent-background: rgba(24, 13, 9, 0.847);
 }
 
 html {
-    background-image: url('images/ww-background-img.png');
+    background-image: var(--background-image);
     background-color: #000;
 }
 
@@ -35,7 +36,7 @@ nav {
     left: 0;
     right: 0;
     top: 0;
-    background-color: #120c0ad8;
+    background-color: var(--transparent-background);
     position: fixed;
 }
 
@@ -50,20 +51,34 @@ ul {
     gap: 2rem;
 }
 
-
-
 section {
     text-align: center;
     margin-top: 2rem;
     border: 2px solid #fff;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    
+}
+
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: #120c0ad8;
+    background-color: var(--transparent-background);
     bottom: 0;
     left: 0;
     right: 0;
     border: 2px solid #fff;
 }
+
+
