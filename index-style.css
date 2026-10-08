@@ -108,3 +108,46 @@ footer {
 }
 
 
+/* Media Queries for Responsive Design */
+@media (min-width: 480px) {
+    section {
+        margin: 2rem 0;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+        
+    }
+
+    form {
+        margin: 2rem 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 2rem;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        margin: 2rem 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    section {
+        margin: 2rem 10rem;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        margin: 2rem 10rem;
+    }
+}
